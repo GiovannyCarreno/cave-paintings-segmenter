@@ -46,17 +46,17 @@ numpy>=1.19.0
 
 2. **Crear un entorno virtual (recomendado)**
    ```bash
-   python -m venv venv
+   python -m venv .venv
    ```
 
 3. **Activar el entorno virtual**
    - Windows:
      ```bash
-     venv\Scripts\Activate
+     .venv\Scripts\Activate
      ```
    - Linux/macOS:
      ```bash
-     source venv/bin/activate
+     source .venv/bin/activate
      ```
 
 4. **Instalar las dependencias**
